@@ -14,7 +14,7 @@
 
 ## تنزيل الحزمة
 
-[تحميل حزمة الموقع متعددة الملفات — الإصدار v6](https://github.com/azzeddinecharef-netizen/low/raw/refs/heads/main/qanun-al-amal-ar-v6.zip)
+[تحميل حزمة الموقع متعددة الملفات — الإصدار v7](https://github.com/azzeddinecharef-netizen/low/raw/refs/heads/main/qanun-al-amal-ar-v7.zip)
 
 فك ضغط الحزمة ثم افتح `index.html` بمتصفح حديث. ينشر GitHub Actions صفحات الموقع بعد فك الحزمة تلقائيًا عند تحديث الفرع الرئيسي.
 
