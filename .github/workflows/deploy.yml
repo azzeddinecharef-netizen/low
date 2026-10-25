@@ -1,18 +1,22 @@
 name: Deploy course site
 
+
 on:
   push:
     branches: [main]
   workflow_dispatch:
+
 
 permissions:
   contents: read
   pages: write
   id-token: write
 
+
 concurrency:
   group: pages
   cancel-in-progress: true
+
 
 jobs:
   deploy:
@@ -26,7 +30,7 @@ jobs:
       - name: Configure GitHub Pages
         uses: actions/configure-pages@v5
       - name: Unpack course package
-        run: unzip -q qanun-al-amal-ar-v9.zip -d site
+        run: unzip -q qanun-al-amal-ar-v10.zip -d site
       - name: Upload site artifact
         uses: actions/upload-pages-artifact@v4
         with:
@@ -34,3 +38,4 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
+
